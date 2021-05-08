@@ -1,0 +1,6 @@
+# Quasi-1D Subsonic-Supersonic Isentropic Convergent-Divergent Nozzle Flow Simulation with MacCormack's Technique
+
+[![Quasi-1D Nozzle Flow](https://img.youtube.com/vi/5L_yAxcCG4Y/0.jpg)](https://www.youtube.com/watch?v=5L_yAxcCG4Y)
+
+A flow field solution of a quasi-1D isentropic nozzle was calculated using the time-marching method and MacCormack's discretization scheme. This method is useful for subsonic-supersonic flow field simulation because some popular numerical methods such as the method of characteristics are only applicable to pure supersonic flow fields (governed purely by hyperbolic PDE). The time-marching method whose solution is shown here is not limited by PDE class. The code was validated against [J. W. Slater's CFD study](https://www.grc.nasa.gov/www/wind/valid/cdv/cdv01/cdv01.html) on [NASA's Converging-Diverging Verification (CDV) model](https://www.grc.nasa.gov/www/wind/valid/cdv/cdv.html). The tools I used to generate both the solution and the visualization are good ol' numpy and matplotlib.
+The algorithm is featured in Appendix B of _Modern Compressible Flow with Historical Perspective_, 4th Edition by John D. Anderson
